@@ -1,7 +1,7 @@
 apiVersion: cilium.io/v1alpha1
 kind: TracingPolicy
 metadata:
-  name: "ebpf_summit"
+  name: "ebpf-summit"
 spec:
   kprobes:
   - call: "fd_install"
