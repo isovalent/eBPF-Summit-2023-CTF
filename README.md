@@ -4,13 +4,33 @@ Welcome to the eBPF Summit 2023 CTF Challenge!
 
 ## Deploying the challenge
 
-* On Mac, you can set up the challenge using Lima-VM by running `limactl start
-  lima/<easy/hard>.yaml` with the file provided in this repo. Once this
-  completes, open a shell into the VM with `limactl shell <easy/hard>`.
+* On Mac, you can set up the challenge using Lima-VM by running:
+
+  ```
+  limactl start lima/<easy/hard>.yaml
+  ```
+
+  with the file provided in this repo. Once this
+  completes, open a shell into the VM with:
+
+  ```
+  limactl shell <easy/hard>
+  ```
 
 * If you're a Vagrant user, we've supplied a Vagrantfile for you as well.
-  Download that file and run `vagrant up`. Once this is finished, run `vagrant
-  ssh` to open a shell into the VM.
+  Download that file and run:
+
+  ```
+  vagrant up
+  ```
+
+  Once this is finished, run:
+
+  ```
+  vagrant ssh
+  ```
+
+  to open a shell into the VM.
 
 If you don't want to use Lima or Vagrant, you should be able to run the binary
 `bin/ebpf.summit.2023` as root on a relatively modern Linux distro (as long as
