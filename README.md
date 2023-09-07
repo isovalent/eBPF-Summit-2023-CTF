@@ -26,8 +26,13 @@ if you `sudo cat` this file you'll see that there is a program updating this
 file, this hidden program is also systematically reading `/etc/passwd`. A
 nefarious user (me) has hidden a userland program with eBPF, you'll need to use
 whatever tools are at your disposal to locate this program and its pid in order
-to kill (don't -9 the pid) the program. Only then will the `/ebpf.summit`
-reveal the flag!
+to kill the program. Only then will the `/ebpf.summit` reveal the flag!
+
+> **Warning**
+>
+> When killing the process, do not send `SIGKILL` (do not pass the `-9` option
+> to `kill`), or the process will not have the opportunity to write its flag
+> before closing.
 
 Good luck!
 
