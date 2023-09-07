@@ -2,6 +2,42 @@
 
 Welcome to the eBPF Summit 2023 CTF Challenge!
 
+## Backstory
+
+The backstory continues from the previous challenges. [You can find the
+previous pieces here][previously]. Like for previous years, the story is here
+for the atmosphere and does **not** contain hints to help solve the challenge.
+
+> What a week.
+>
+> You are Jephen'Tsa. Hero of the Rebel Alliance, you've left behind your quiet
+> life as a giant-bee-keeper on planet Berpafyll to fight against the Empire.
+> Three days ago you got reconnected with your former ally, Blue Hex. She had
+> apparently crossed you, but only to expose a spy at the heart of the command.
+>
+> He is Bajeroff Lake. Native from Rekkana, he's been in charge of computer
+> systems and droids for the Rebellion over the last six years. All this time,
+> he's also been covering his stakes in a megacorporation under Imperial
+> control. More recently, he started to leak precious data to your foes. He's
+> the spy identified by Blue Hex, and as soon as you came back to your base,
+> two days ago, you exposed him.
+>
+> Mon Mothma, leader of the Alliance, immediately ordered that the traitor be
+> arrested. Bajeroff resisted and locked himself in a server room, along with a
+> bunch of droids under his command. You spent most of your day yesterday
+> trying to drive him out. After many blasts, various subterfuges, a tea break,
+> two lightsaber fights, and several other heroic actions, your team eventually
+> managed to catch the spy alive and put him behind bars.
+>
+> But you're not out of the asteroid field yet. This morning, Blue Hex just
+> realised that Bajeroff managed to infect all computers with clandestine
+> malware. You're now logging into the system to try and find the malicious
+> process to stop it. You'd better be quick, or the virus will send the
+> position of your base to the Empire. Once again, everyone relies on you, and
+> it's only Wednesday! May the Force be with you: you'll need it.
+
+[previously]: https://gist.github.com/qmonnet/09afdd12a65ce3e5612d554b23246d76
+
 ## Deploying the challenge
 
 * On Mac, you can set up the challenge using Lima-VM by running:
