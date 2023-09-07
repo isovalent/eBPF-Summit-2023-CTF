@@ -16,7 +16,7 @@ If you don't want to use Lima or Vagrant, you should be able to run the binary
 `bin/ebpf.summit.2023` on a relatively modern Linux distro (as long as the
 kernel is 5.15+).
 
-# The premise!
+## The premise!
 
 Once your system is up and running you will be able to log into a running
 Ubuntu machine!
