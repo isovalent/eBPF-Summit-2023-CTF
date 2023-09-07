@@ -13,8 +13,8 @@ Welcome to the eBPF Summit 2023 CTF Challenge!
   ssh` to open a shell into the VM.
 
 If you don't want to use Lima or Vagrant, you should be able to run the binary
-`bin/ebpf.summit.2023` on a relatively modern Linux distro (as long as the
-kernel is 5.15+).
+`bin/ebpf.summit.2023` as root on a relatively modern Linux distro (as long as
+the kernel is 5.15+).
 
 ## The premise!
 
