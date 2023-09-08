@@ -92,4 +92,7 @@ to kill the program. Only then will the `/ebpf.summit` reveal the flag!
 
 Good luck!
 
-Check your answer or get hints at https://isogo.to/summit-2022-ctf-3.
+Check your answer or get hints at `#ebpf-summit-ctf-spoilers` on the eBPF 
+slack instance!
+
+!(Join the Cilium slack channel)[https://img.shields.io/badge/slack-cilium-brightgreen.svg?logo=slack]
