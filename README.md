@@ -95,4 +95,4 @@ Good luck!
 Check your answer or get hints at `#ebpf-summit-ctf-spoilers` on the eBPF 
 slack instance!
 
-!(Join the Cilium slack channel)[https://img.shields.io/badge/slack-cilium-brightgreen.svg?logo=slack]
+![Join the Cilium slack channel](https://img.shields.io/badge/slack-cilium-brightgreen.svg?logo=slack)
